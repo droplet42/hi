@@ -11,9 +11,9 @@ h1 {
     font-size: 30px;
 }
 .wrapper {
-    border: 2px dotted blue; /* Border color and width */
-    padding: 20px; /* Adds space inside the border */
-    width: 40%; /* Adjust as needed */
-    margin: 40px auto 0 auto; /* Adds 40px space at the top and centers the wrapper */
-    text-align: left; /* Keeps the text left-aligned */
+    border: 2px dotted blue; 
+    padding: 20px; 
+    width: 40%; 
+    margin: 40px auto 0 auto;
+    text-align: left; 
 }
