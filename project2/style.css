@@ -5,9 +5,9 @@ body {
     font-style: normal;
     color: rgb(255, 255, 255);
     margin: 0;
-    width: 90%; /* Adjust as needed */
-    margin: 0 auto; /* Centers the wrapper */
-    text-align: left; /* Keeps the text left-aligned */
+    width: 90%; 
+    margin: 0 auto; 
+    text-align: left;
 }
 
 header {
@@ -31,7 +31,7 @@ header {
 }
 
 .line {
-    border: 1px solid white; /* Adjust the color and thickness as needed */
+    border: 1px solid white; 
     margin-top: 20px;
     margin-bottom: 40px;
 }
@@ -42,13 +42,13 @@ header {
 
 .content2 {
     display: grid;
-    grid-template-columns: 1fr 1fr; /* Two equal columns */
-    gap: 30px; /* Space between columns */
-    margin-bottom: 40px; /* Adds space between sections */
+    grid-template-columns: 1fr 1fr; 
+    gap: 30px; 
+    margin-bottom: 40px; 
 }
 
 .reverse {
-    grid-template-areas: "text image"; /* Position text and image */
+    grid-template-areas: "text image"; 
 }
 
 .reverse .text-content {
@@ -60,9 +60,9 @@ header {
 }
 
 .home, .p2 {
-    width: 100%; /* Adjust size as needed */
+    width: 100%; 
     height: auto;
-    background-color: white; /* Add a background color for visibility */
+    background-color: white; 
 }
 
 .text-content {
@@ -76,13 +76,13 @@ h2 {
     font-weight: 500;
     font-style: normal;
     text-align: left;
-    margin: 0; /* Remove default margin */
+    margin: 0; 
 }
 
 .text-content p {
-    margin-top: 10px; /* Add space between h2 and p */
-    margin-bottom: 20px; /* Add space between paragraphs */
-    line-height: 2.2; /* Adjust line height for better readability */
+    margin-top: 10px; 
+    margin-bottom: 20px; 
+    line-height: 2.2; 
     font-size: 16px;
     font-family: "Helvetica", sans-serif;
 }
@@ -90,5 +90,5 @@ h2 {
 .text-content p br {
     content: "";
     display: block;
-    margin-bottom: 20px; /* Adjust as needed */
+    margin-bottom: 20px;
 }
